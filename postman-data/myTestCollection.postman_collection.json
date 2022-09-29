@@ -29,7 +29,7 @@
 					"script": {
 						"exec": [
 							"console.log(\"*********************************\");",
-							"console.log(pm.iterationData.get(\"firstFile\"));",
+							"console.log(pm.iterationData.toJSON());",
 							"console.log(\"*********************************\");"
 						],
 						"type": "text/javascript"
